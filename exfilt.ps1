@@ -10,7 +10,7 @@ $uriFileName = "$work_dir\uri.txt"
 If (Test-Path $encodedFileName){ Remove-Item $encodedFileName }
 If (Test-Path $uriFileName){ Remove-Item $uriFileName }
 
-$domain = "tun.layer-8.ovh"
+$domain = "tun.domain.com"
 $frag_id = 0
 #encoding part
 
